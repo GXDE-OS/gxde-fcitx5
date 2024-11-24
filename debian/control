@@ -1,0 +1,18 @@
+Source: gxde-fcitx5
+Section: metapackages
+Priority: optional
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libime-bin,
+ make
+Standards-Version: 4.6.2
+Homepage: https://gitee.com/GXDE-OS/gxde-fcitx5
+
+Package: gxde-fcitx5
+Architecture: all
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: fcitx5 config for GXDE
