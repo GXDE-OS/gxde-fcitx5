@@ -15,4 +15,8 @@ Architecture: all
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
+ fcitx5-module-lua,
+ liblua5.3-0,
+ fcitx5-module-emoji,
+ fonts-noto-color-emoji,
 Description: fcitx5 config for GXDE

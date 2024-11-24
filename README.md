@@ -1,16 +1,5 @@
-Sougou Pinyin dictionary, dump from https://pinyin.sogou.com/dict.
-
-Use it with fcitx5:
-
-```
-yay -S fcitx5-pinyin-sougou
-```
-
-Or, download the repository manually, then convert it by:
-
-```
-cat dict/*.txt > dict.txt
-libime_pinyindict dict.txt sougou.dict
-```
-
-Then put `sougou.dict` at `~/.local/share/fcitx5/pinyin/dictionaries`.
+针对 GXDE 适配的 fcitx5 脚本  
+参考项目：  
+https://aur.archlinux.org/fcitx5-pinyin-sougou.git  
+https://gitee.com/tvtwu/fcitx-dde-skin  
+https://github.com/debuggerx01/fcitx5_customizer  
